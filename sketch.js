@@ -27,7 +27,7 @@ function setup() {
   monkey.depth=monkey.depth+1
   
 ground=createSprite(390,390,790,10);
- ground.shapeColor="bwn"
+ ground.shapeColor="brown"
   
   bananagroup=new Group()
   rockgroup=new Group()
