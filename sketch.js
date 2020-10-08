@@ -26,7 +26,7 @@ function setup() {
   back.depth=monkey.depth
   monkey.depth=monkey.depth+1
   
-  ground=createSprite(390,390,820,30);
+  ground=createSprite(390,390,820,20);
   ground.shapeColor="brown"
   ground.depth=back.depth;
   ground.depth=ground.depth+1;
