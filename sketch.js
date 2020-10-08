@@ -18,7 +18,7 @@ function setup() {
   
   
   back=createSprite(200,200,200,200)
- back.addImage(backimg)
+  back.addImage(backimg)
   back.velocityX=-8
   back.x=back.width/2
   back.scale=2
@@ -26,8 +26,11 @@ function setup() {
   back.depth=monkey.depth
   monkey.depth=monkey.depth+1
   
-ground=createSprite(390,390,790,10);
- ground.shapeColor="brown"
+  ground=createSprite(390,390,790,10);
+  ground.shapeColor="brown"
+  ground.depth=back.depth;
+  ground.depth=ground.depth+1;
+  
   
   bananagroup=new Group()
   rockgroup=new Group()
