@@ -21,7 +21,7 @@ function setup() {
  back.addImage(backimg)
   back.velocityX=-8
   back.x=back.width/2
-  back.scale=1.5
+  back.scale=2
   
   back.depth=monkey.depth
   monkey.depth=monkey.depth+1
@@ -104,7 +104,7 @@ function rocks(){
    rock.addImage(rockimg)
     rock.velocityX=-8;
     rock.scale=0.25 
-    rock.lifetime=400
+    rock.lifetime=500
     rockgroup.add(rock)
     rock.setCollider("rectangle",0,0,300,300)
   }
