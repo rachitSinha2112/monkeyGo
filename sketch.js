@@ -21,7 +21,7 @@ function setup() {
  back.addImage(backimg)
   back.velocityX=-8
   back.x=back.width/2
-  back.scale=1.3
+  back.scale=1.5
   
   back.depth=monkey.depth
   monkey.depth=monkey.depth+1
