@@ -27,10 +27,8 @@ function setup() {
   monkey.depth=monkey.depth+1
   
   ground=createSprite(390,390,820,20);
- 
   ground.visble=false;
-  ground.depth=back.depth;
-  ground.depth=ground.depth+1;
+ 
   
   
   bananagroup=new Group()
