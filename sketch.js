@@ -27,7 +27,7 @@ function setup() {
   monkey.depth=monkey.depth+1
   
   ground=createSprite(390,390,820,20);
-  ground.visble=false;
+  ground.visible=false;
  
   
   
