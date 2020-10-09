@@ -28,7 +28,7 @@ function setup() {
   
   ground=createSprite(390,390,820,20);
  
-  ground.visble=false;
+  ground.Visble=false;
   ground.depth=back.depth;
   ground.depth=ground.depth+1;
   
